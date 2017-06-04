@@ -1,0 +1,11 @@
+{
+  "name": "mermaid-webpack-demo",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "webpack --progress --colors"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2",
+    "webpack": "^2.6.1"
+  }
+}
