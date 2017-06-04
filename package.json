@@ -2,10 +2,20 @@
   "name": "mermaid-webpack-demo",
   "version": "0.1.0",
   "scripts": {
-    "build": "webpack --progress --colors"
+    "build": "webpack --progress --colors",
+    "watch": "yarn build -- --watch"
   },
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-remove-strict-mode": "^0.0.2",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.0",
     "standard": "^10.0.2",
+    "style-loader": "^0.18.1",
     "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "mermaid": "^7.0.3"
   }
 }

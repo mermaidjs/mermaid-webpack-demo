@@ -1,1 +1,2 @@
-console.log('hello world')
+require('mermaid')
+require('mermaid/dist/mermaid.forest.css')
