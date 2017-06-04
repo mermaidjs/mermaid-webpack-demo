@@ -13,6 +13,12 @@ const config = {
   module: {
     rules: [
       {
+        parser: {
+          amd: false
+        },
+        include: /node_modules\/lodash\// // https://github.com/lodash/lodash/issues/3052
+      },
+      {
         test: /\.js$/,
         use: {
           loader: 'babel-loader',
