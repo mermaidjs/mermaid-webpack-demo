@@ -1,2 +1,2 @@
 require('mermaid')
-require('mermaid/dist/mermaid.forest.css')
+require('mermaid/dist/themes/mermaid.forest.css')

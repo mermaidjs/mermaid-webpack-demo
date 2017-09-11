@@ -1,5 +1,3 @@
-- externals: 'fs', // in order to make mermaid work
-
 ```
     {
         parser: {

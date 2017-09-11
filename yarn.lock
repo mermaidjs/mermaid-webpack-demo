@@ -896,21 +896,21 @@ d@1:
   dependencies:
     es5-ext "^0.10.9"
 
-dagre-d3-renderer@^0.4.18:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/dagre-d3-renderer/-/dagre-d3-renderer-0.4.18.tgz#27a82c183ccbeb37dd2540114bf9fd6536389060"
+dagre-d3-renderer@^0.4.23:
+  version "0.4.23"
+  resolved "https://registry.yarnpkg.com/dagre-d3-renderer/-/dagre-d3-renderer-0.4.23.tgz#c0cddbc9b85409e78f4fb3e6ebc45be3b4d29227"
   dependencies:
     d3 "3.5.17"
-    dagre "^0.7.4"
+    dagre-layout "^0.8.0"
     graphlib "^2.1.1"
-    lodash "3.10.1"
+    lodash "^4.17.4"
 
-dagre@^0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/dagre/-/dagre-0.7.4.tgz#de72f0e74a550ce11ce638f0a136fed712398022"
+dagre-layout@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/dagre-layout/-/dagre-layout-0.8.0.tgz#7147b6afb655602f855158dfea171db9aa98d4ff"
   dependencies:
-    graphlib "^1.0.5"
-    lodash "^3.10.0"
+    graphlib "^2.1.1"
+    lodash "^4.17.4"
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -1598,12 +1598,6 @@ graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-graphlib@^1.0.5:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/graphlib/-/graphlib-1.0.7.tgz#0cab2df0ffe6abe070b2625bfa1edb6ec967b8b1"
-  dependencies:
-    lodash "^3.10.0"
-
 graphlib@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/graphlib/-/graphlib-2.1.1.tgz#42352c52ba2f4d035cb566eb91f7395f76ebc951"
@@ -2115,10 +2109,6 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@3.10.1, lodash@^3.10.0:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-
 lodash@^4.0.0, lodash@^4.11.1, lodash@^4.14.0, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
@@ -2167,14 +2157,14 @@ memory-fs@^0.4.0, memory-fs@~0.4.1:
     errno "^0.1.3"
     readable-stream "^2.0.1"
 
-mermaid@^7.0.8:
-  version "7.0.8"
-  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-7.0.8.tgz#9138aa48105f406487d535b992bbee26f13ad4da"
+mermaid@^7.0.14:
+  version "7.0.14"
+  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-7.0.14.tgz#d23f0250b14e108e8de1708cf1c3ddfdf4e2bd4d"
   dependencies:
     chalk "^2.1.0"
     d3 "3.5.17"
-    dagre "^0.7.4"
-    dagre-d3-renderer "^0.4.18"
+    dagre-d3-renderer "^0.4.23"
+    dagre-layout "^0.8.0"
     he "^1.1.1"
     lodash "^4.17.4"
     minimist "^1.2.0"
@@ -3604,9 +3594,9 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.5.3"
 
-webpack@^3.5.5:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.5.5.tgz#3226f09fc8b3e435ff781e7af34f82b68b26996c"
+webpack@^3.5.6:
+  version "3.5.6"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.5.6.tgz#a492fb6c1ed7f573816f90e00c8fbb5a20cc5c36"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"
@@ -3724,9 +3714,3 @@ yargs@~3.10.0:
     cliui "^2.1.0"
     decamelize "^1.0.0"
     window-size "0.1.0"
-
-yarn-upgrade-all@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/yarn-upgrade-all/-/yarn-upgrade-all-0.1.8.tgz#e5b243b87aa07bd19c1f5114d4c4aea68f8664f1"
-  dependencies:
-    chalk "^2.1.0"
