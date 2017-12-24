@@ -1,2 +1,2 @@
-require('mermaid')
-require('mermaid/dist/themes/mermaid.forest.css')
+const mermaid = require('mermaid')
+mermaid.initialize({ theme: 'forest' })
