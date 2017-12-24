@@ -10,7 +10,7 @@ A simple demo for using mermaid with webpack.
 
 ## Build
 
-    yarn build
+    yarn build:watch
 
 
 ## Test

@@ -1,5 +1,3 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
-
 const config = {
   target: 'web',
   entry: {
@@ -23,19 +21,9 @@ const config = {
         use: {
           loader: 'babel-loader'
         }
-      },
-      {
-        test: /\.css$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: 'css-loader'
-        })
       }
     ]
-  },
-  plugins: [
-    new ExtractTextPlugin('[name].bundle.css')
-  ]
+  }
 }
 
-module.exports = [config]
+export default config
